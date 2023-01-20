@@ -53,6 +53,6 @@
         <java jar="${jar.dir}/${ant.project.name}.jar" fork="true"/>
     </target>
 	
-    <target name="main" depends="clean,jar,javadoc,run"/>
+    <target name="main" depends="compile,jar,run"/>
 
 </project>
